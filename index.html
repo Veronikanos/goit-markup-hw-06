@@ -394,37 +394,40 @@
 			<div class="modal-form">
 				<p>Залиште свої дані, ми вам передзвонимо</p>
 				<form name="callback_form">
-					<span class="field-desc">Ім'я</span>
 					<label class="form-field">
+						<span class="field-desc">Ім'я</span>
 						<input class="field-input" type="text" name="name" />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-user"></use>
 						</svg>
 					</label>
-					<span class="field-desc">Телефон</span>
 					<label class="form-field">
+						<span class="field-desc">Телефон</span>
 						<input class="field-input" type="tel" name="tel" />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-phone2"></use>
 						</svg>
 					</label>
-					<span class="field-desc">Пошта</span>
 					<label class="form-field">
+						<span class="field-desc">Пошта</span>
 						<input class="field-input" type="email" name="email" />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-email"></use>
 						</svg>
 					</label>
-					<span class="field-desc">Коментар</span>
 					<label class="form-field">
+						<span class="field-desc">Коментар</span>
 						<textarea class="comment" name="" id="" placeholder="Введіть текст"></textarea></label>
 					<label class="policy">
 						<input class="checkbox" type="checkbox" name="" id="">
-						<span class="checkbox-icon"></span>
-						<span>Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
+						<span class="checkbox-icon-unchecked"></span>
+						<svg class="checkbox-icon-checked" width="16" height="15">
+							<use href="./images/symbol-defs.svg#icon-check-1"></use>
+						</svg>
+						<span class="policy-agreement">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
 					</label>
 					<div class="btn-cover">
-						<button class="close-form-btn" type="submit">Відправити</button>
+						<button aria-label="Відправити форму" class="close-form-btn" type="submit">Відправити</button>
 					</div>
 				</form>
 			</div>
