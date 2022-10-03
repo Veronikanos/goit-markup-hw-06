@@ -373,7 +373,7 @@
 				<p class="footer-join">Підпишіться на розсилку</p>
 				<form class="subscribe-form">
 					<label for="email"></label>
-					<input type="email" name="email" id="email" placeholder="E-mail">
+					<input type="email" name="email" id="email" placeholder="E-mail" required />
 					<button class="subscribe-button" type="submit">
 						<span>Підписатися</span>
 						<svg width="24" height="24">
@@ -396,30 +396,31 @@
 				<form name="callback_form">
 					<label class="form-field">
 						<span class="field-desc">Ім'я</span>
-						<input class="field-input" type="text" name="name" />
+						<input class="field-input" type="text" name="name" required />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-user"></use>
 						</svg>
 					</label>
 					<label class="form-field">
 						<span class="field-desc">Телефон</span>
-						<input class="field-input" type="tel" name="tel" />
+						<input class="field-input" type="tel" name="tel" required />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-phone2"></use>
 						</svg>
 					</label>
 					<label class="form-field">
 						<span class="field-desc">Пошта</span>
-						<input class="field-input" type="email" name="email" />
+						<input class="field-input" type="email" name="email" required />
 						<svg class="field-icon" width="18" height="18">
 							<use href="./images/symbol-defs.svg#icon-email"></use>
 						</svg>
 					</label>
 					<label class="form-field">
 						<span class="field-desc">Коментар</span>
-						<textarea class="comment" name="" id="" placeholder="Введіть текст"></textarea></label>
+						<textarea class="comment" name="comment" placeholder="Введіть текст"></textarea>
+					</label>
 					<label class="policy">
-						<input class="checkbox" type="checkbox" name="" id="">
+						<input class="checkbox" type="checkbox" name="checkbox" required />
 						<span class="checkbox-icon-unchecked"></span>
 						<svg class="checkbox-icon-checked" width="16" height="15">
 							<use href="./images/symbol-defs.svg#icon-check-1"></use>
